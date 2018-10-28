@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EllisMigrator", "EllisMigra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{47CBE6DA-DFF1-4126-ABFC-BAB274FE1844}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{0B1017AF-9433-4EC1-A5CE-1AA717247B09}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EllisMigrator.SqlServer", "EllisMigrator.SqlServer\EllisMigrator.SqlServer.csproj", "{F4936151-608E-4EEB-97E3-F239482768B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EllisMigrator.SampleMigrations", "EllisMigrator.SampleMigrations\EllisMigrator.SampleMigrations.csproj", "{6744AF0C-894C-40C9-8F2D-B4D85950AC71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,10 @@ Global
 		{F4936151-608E-4EEB-97E3-F239482768B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4936151-608E-4EEB-97E3-F239482768B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4936151-608E-4EEB-97E3-F239482768B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6744AF0C-894C-40C9-8F2D-B4D85950AC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6744AF0C-894C-40C9-8F2D-B4D85950AC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6744AF0C-894C-40C9-8F2D-B4D85950AC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6744AF0C-894C-40C9-8F2D-B4D85950AC71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{93BFB838-0060-4849-806C-2AC0C44DD130} = {47CBE6DA-DFF1-4126-ABFC-BAB274FE1844}
 		{F4936151-608E-4EEB-97E3-F239482768B2} = {47CBE6DA-DFF1-4126-ABFC-BAB274FE1844}
+		{6744AF0C-894C-40C9-8F2D-B4D85950AC71} = {0B1017AF-9433-4EC1-A5CE-1AA717247B09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {690C4932-EB6D-464D-9C64-6EB259F1120F}
